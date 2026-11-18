@@ -1,0 +1,13 @@
+{
+  "name": "sk-roads",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scheduled scraper for the Saskatchewan Highway Hotline road conditions report",
+  "scripts": {
+    "scrape": "node scrape-sk-roads.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
