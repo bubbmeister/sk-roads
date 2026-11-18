@@ -1,0 +1,44 @@
+name: Build road segment geometry
+
+# Run this by hand after the first successful "Update SK road conditions" run,
+# and again whenever new roadways or locations show up in the feed.
+on:
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Rebuild every segment, not just missing ones'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sk-roads
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build segments
+        run: node build-segments.mjs ${{ inputs.refresh && '--refresh' || '' }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "road-conditions-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/segments.json geocache.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Update road segment geometry"
+            git push
+          fi
