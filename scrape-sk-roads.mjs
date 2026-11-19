@@ -13,6 +13,7 @@ import { dirname } from 'node:path';
 
 const PAGE_URL = 'https://hotline.gov.sk.ca/roadconditions';
 const OUT_FILE = 'docs/sk-roads.json';
+const SEGMENTS_FILE = 'docs/segments.json'; // built by build-segments.mjs
 const USER_AGENT =
   'GingrichDieselMap-RoadConditions/1.0 (personal project; one fetch every 30 minutes)';
 
@@ -29,7 +30,11 @@ const FIELDS = [
 async function scrape() {
   const browser = await chromium.launch();
   try {
-    const context = await browser.newContext({ userAgent: USER_AGENT });
+    // A wide viewport stops the table from collapsing columns into expandable child rows.
+    const context = await browser.newContext({
+      userAgent: USER_AGENT,
+      viewport: { width: 1920, height: 1080 },
+    });
     const page = await context.newPage();
 
     const response = await page.goto(PAGE_URL, {
@@ -48,10 +53,14 @@ async function scrape() {
     }
 
     // The table body is filled in by JavaScript after load.
-    await page.waitForSelector('table tbody tr td', { timeout: 30_000 });
+    // "attached" rather than "visible": the first cell in each row is an empty helper
+    // column that is never visible, which made the default wait time out.
+    await page.waitForSelector('table tbody tr td', { state: 'attached', timeout: 30_000 });
 
     // If the table is a paginated DataTable, show as many rows per page as possible.
-    const lengthSelect = await page.$('select[name$="_length"]');
+    const lengthSelect = await page.$(
+      'select[name$="_length"], .dt-length select, .dataTables_length select'
+    );
     if (lengthSelect) {
       const values = await lengthSelect.$$eval('option', (opts) => opts.map((o) => o.value));
       const best = values.includes('-1')
@@ -66,12 +75,14 @@ async function scrape() {
     for (let i = 0; i < 200; i++) {
       const pageRows = await page.$$eval('table tbody tr', (trs) =>
         trs.map((tr) =>
-          [...tr.querySelectorAll('td')].map((td) => td.innerText.trim().replace(/\s+/g, ' '))
+          [...tr.querySelectorAll('td')].map((td) => td.textContent.trim().replace(/\s+/g, ' '))
         )
       );
       rawRows.push(...pageRows);
 
-      const next = await page.$('.paginate_button.next:not(.disabled)');
+      const next = await page.$(
+        '.paginate_button.next:not(.disabled), button.dt-paging-button.next:not(.disabled):not([disabled])'
+      );
       if (!next) break;
       await next.click();
       await page.waitForTimeout(300);
@@ -79,8 +90,10 @@ async function scrape() {
 
     const seen = new Set();
     const items = [];
-    for (const cells of rawRows) {
-      if (cells.length < FIELDS.length) continue;
+    for (const allCells of rawRows) {
+      if (allCells.length < FIELDS.length) continue;
+      // Rows start with an empty helper cell, so keep only the last 7 cells.
+      const cells = allCells.slice(-FIELDS.length);
       if (cells[0].toLowerCase() === 'area') continue; // repeated header row
       const key = cells.join('|');
       if (seen.has(key)) continue;
@@ -97,6 +110,25 @@ async function scrape() {
   }
 }
 
+// Adds encodedPolyline and polylineStatus to each row from docs/segments.json, if it exists.
+// polylineStatus is one of: ok, suspect, manual, failed, missing.
+function attachPolylines(items) {
+  let segments = {};
+  try {
+    segments = JSON.parse(readFileSync(SEGMENTS_FILE, 'utf8')).segments ?? {};
+  } catch {
+    // No segments file yet: rows get null polylines.
+  }
+  return items.map((item) => {
+    const seg = segments[`${item.roadway}|${item.location}`];
+    return {
+      ...item,
+      encodedPolyline: seg?.encodedPolyline ?? null,
+      polylineStatus: seg?.status ?? 'missing',
+    };
+  });
+}
+
 function readPreviousItems() {
   if (!existsSync(OUT_FILE)) return null;
   try {
@@ -107,7 +139,7 @@ function readPreviousItems() {
 }
 
 try {
-  const items = await scrape();
+  const items = attachPolylines(await scrape());
   const previous = readPreviousItems();
 
   if (previous && JSON.stringify(previous) === JSON.stringify(items)) {
