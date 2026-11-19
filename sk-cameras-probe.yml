@@ -1,0 +1,45 @@
+name: Probe SK cameras
+
+# Run by hand from the Actions tab. Loads the Hotline's camera list page once and saves
+# what is in it to docs/sk-cameras-raw.json.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sk-roads
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Probe camera page
+        run: node probe-sk-cameras.mjs
+
+      - name: Commit the result
+        run: |
+          git config user.name "road-conditions-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/sk-cameras-raw.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Save SK cameras probe"
+            git push
+          fi
