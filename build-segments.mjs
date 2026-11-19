@@ -121,6 +121,14 @@ function highwayShare(osrmRoute, number) {
 const round = (n, places) => Math.round(n * 10 ** places) / 10 ** places;
 
 async function buildSegment(item, geocache) {
+  if (/ice road/i.test(item.roadway) || /ice road/i.test(item.area)) {
+    return {
+      encodedPolyline: null,
+      status: 'skipped',
+      reason: 'Ice roads are not on the normal road network',
+    };
+  }
+
   const ends = parseEnds(item.location);
   if (!ends) return { encodedPolyline: null, status: 'failed', reason: 'Could not split location into two places' };
 

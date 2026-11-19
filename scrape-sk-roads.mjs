@@ -17,6 +17,18 @@ const SEGMENTS_FILE = 'docs/segments.json'; // built by build-segments.mjs
 const USER_AGENT =
   'GingrichDieselMap-RoadConditions/1.0 (personal project; one fetch every 30 minutes)';
 
+// The page puts each column's name at the start of every cell (it is hidden on screen),
+// so those labels are stripped from the values. Same order as FIELDS below.
+const LABELS = [
+  'Area',
+  'Roadway',
+  'Location',
+  'Primary Condition',
+  'Secondary Conditions',
+  'Visibility',
+  'Last Updated',
+];
+
 const FIELDS = [
   'area',
   'roadway',
@@ -90,7 +102,13 @@ async function scrape() {
       // Only consider a visible, enabled "next" button. Hidden copies are ignored.
       const next = page
         .locator(
-          '.paginate_button.next:not(.disabled):visible, button.dt-paging-button.next:not(.disabled):not([disabled]):visible'
+          [
+            '.paginate_button.next:not(.disabled):visible',
+            'button.dt-paging-button.next:not(.disabled):not([disabled]):visible',
+            'li.next:not(.disabled) > a:visible',
+            '[aria-label="Next"]:not(.disabled):not([disabled]):visible',
+            '[aria-label="Next page"]:not(.disabled):not([disabled]):visible',
+          ].join(', ')
         )
         .first();
       if ((await next.count()) === 0) break;
@@ -102,6 +120,10 @@ async function scrape() {
       await page.waitForTimeout(300);
     }
 
+    const tableInfo = await page
+      .$eval('.dataTables_info, .dt-info', (el) => el.textContent.trim())
+      .catch(() => 'not found');
+    console.log(`Table info: ${tableInfo}`);
     console.log(`Collected ${rawRows.length} raw table rows.`);
 
     const seen = new Set();
@@ -109,8 +131,12 @@ async function scrape() {
     for (const allCells of rawRows) {
       if (allCells.length < FIELDS.length) continue;
       // Rows start with an empty helper cell, so keep only the last 7 cells.
-      const cells = allCells.slice(-FIELDS.length);
-      if (cells[0].toLowerCase() === 'area') continue; // repeated header row
+      const cells = allCells
+        .slice(-FIELDS.length)
+        .map((text, idx) =>
+          text.startsWith(LABELS[idx]) ? text.slice(LABELS[idx].length).trim() : text
+        );
+      if (cells.every((text) => text === '')) continue; // header or blank rows
       const key = cells.join('|');
       if (seen.has(key)) continue;
       seen.add(key);
@@ -127,7 +153,7 @@ async function scrape() {
 }
 
 // Adds encodedPolyline and polylineStatus to each row from docs/segments.json, if it exists.
-// polylineStatus is one of: ok, suspect, manual, failed, missing.
+// polylineStatus is one of: ok, suspect, manual, failed, skipped, missing.
 function attachPolylines(items) {
   let segments = {};
   try {
