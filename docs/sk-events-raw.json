@@ -1,0 +1,1123 @@
+{
+  "source": "https://hotline.gov.sk.ca/list/events/traffic",
+  "fetchedAt": "2026-11-19T06:44:47.707Z",
+  "tableInfo": "Showing 1 to 41 of 41 entries",
+  "summary": {
+    "total": 41,
+    "types": {
+      "Construction": 17,
+      "Incidents": 24
+    },
+    "withLink": 41,
+    "withCoords": 0
+  },
+  "rows": [
+    {
+      "type": "Construction",
+      "roadway": "Highway 1",
+      "description": "Under Construction on Highway 1 Eastbound At Regina Bypass Bridge. Width Restriction: 3.5m Speed Restriction: 60km/h Activities: One lane traffic, Reduced speed required, Watch for equipment & persons working.Comments: Road maintenance taking place under Regina Bypass bridge. Please use caution when traveling through. Traffic control will be in place 24 hours a day.",
+      "startTime": "11/19/26, 8:00 AM",
+      "anticipatedEndTime": "12/2/26, 5:00 PM",
+      "lastUpdated": "11/18/26, 1:56 PM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12264",
+          "rawHref": "/map#Construction-12264",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12264\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2264",
+        "data-id": "12264",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-102",
+      "description": "Under Construction on HWY-102 Both Directions at 6.5 Km West of Nemeiben Lake Access Road, at the Nemeiben Campground Entrance. Width Restriction: 4.1m Speed Restriction: 60km/h Activities: Be prepared to stop, Bridge out, Local detour, One lane traffic, Reduced speed required, Restricted lane width, Watch for equipment & persons working.Comments: Due to construction, access to the Nemeiben campground has been restricted to local traffic only.",
+      "startTime": "11/4/26, 8:41 AM",
+      "anticipatedEndTime": "2/28/27, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-11825",
+          "rawHref": "/map#Construction-11825",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-11825\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1825",
+        "data-id": "11825",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-123",
+      "description": "Incident Exists on HWY-123 Both Directions Near HWY-55. Activities: Reduce speed.Comments: Surface breaks and potholes. Please slow down.",
+      "startTime": "3/27/23, 1:26 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-1",
+          "rawHref": "/map#Incidents-1",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-1\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 ",
+        "data-id": "1",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-123",
+      "description": "Incident Exists on HWY-123 Both Directions At Cumberland House to Manitoba Border. Activities: Reduce speed.Comments: Highway 123 Cumberland House to Manitoba Border Winter Road Status: Closed",
+      "startTime": "2/7/24, 10:58 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-52",
+          "rawHref": "/map#Incidents-52",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-52\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\35 2",
+        "data-id": "52",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-13",
+      "description": "Incident Exists on HWY-13 Both Directions from Pangman to 13 Km West of Pangman. Activities: Reduce speed.Comments: Slow down and use caution in the area. Surface breaks on roadway. Loose Stones",
+      "startTime": "2/6/26, 8:58 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-6005",
+          "rawHref": "/map#Incidents-6005",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-6005\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\36 005",
+        "data-id": "6005",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-13",
+      "description": "Incident Exists on HWY-13 Both Directions Near 16th St.Comments: Bridge deterioration, legal loads only.",
+      "startTime": "10/20/26, 10:06 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-11456",
+          "rawHref": "/map#Incidents-11456",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-11456\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1456",
+        "data-id": "11456",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-155",
+      "description": "Under Construction on HWY-155 Both Directions at 45 Km North of HWY-165. Speed Restriction: 60km/h Activities: Be prepared to stop, One lane traffic, Reduced speed required, Rough, Watch for equipment & persons working. Expect Delays: Under 20 minutesComments: Construction is taking place. Slow down and use caution as you pass.",
+      "startTime": "9/23/26, 11:32 AM",
+      "anticipatedEndTime": "11/30/26, 5:00 PM",
+      "lastUpdated": "11/18/26, 10:04 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-10872",
+          "rawHref": "/map#Construction-10872",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-10872\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 0872",
+        "data-id": "10872",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-16",
+      "description": "Under Construction on HWY-16 Both Directions from HWY-80 to Manitoba Saskatchewan Border. Width Restriction: 4m Activities: Adjacent to road, Be prepared to stop, Flag persons in attendance, Fresh oil, Loose stones, One lane traffic, Pilot vehicle in attendance, Reduced speed required, Restricted lane width, Rough, Sharp drop off pavement, Watch for equipment & persons working, Windrows on road.Comments: Road shoulder widening work taking place. Slow down and use caution as you pass.",
+      "startTime": "5/6/26, 7:00 AM",
+      "anticipatedEndTime": "11/30/26, 7:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-7019",
+          "rawHref": "/map#Construction-7019",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-7019\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 019",
+        "data-id": "7019",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-165",
+      "description": "Under Construction on HWY-165 Both Directions at 121 Km West of La Ronge. Width Restriction: 4.2m Speed Restriction: 60km/h Activities: Be prepared to stop, One lane traffic, Reduced speed required, Restricted lane width, Rough, Watch for equipment & persons working. Expect Delays: Under 20 minutesComments: Repairs are taking place on the bridge. Please slow down and use caution when traveling in the area.",
+      "startTime": "9/11/26, 2:31 PM",
+      "anticipatedEndTime": "11/20/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-11898",
+          "rawHref": "/map#Construction-11898",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-11898\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1898",
+        "data-id": "11898",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-2",
+      "description": "Under Construction on HWY-2 Both Directions from 3 Km South of HWY-777 to 7.7 Km North of HWY-777. Width Restriction: 3.5m Speed Restriction: 60km/h Activities: Adjacent to road, Be prepared to stop, Heavily rutted, Loose stones, Reduced speed required, Restricted lane width, Rough, Slippery, Surface breaks, Watch for equipment & persons working, Windrows on road. Expect Delays: Under 20 minutesComments: Construction in progress. Please use caution while travelling in the area.",
+      "startTime": "4/27/26, 4:51 PM",
+      "anticipatedEndTime": "11/30/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-6840",
+          "rawHref": "/map#Construction-6840",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-6840\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\36 840",
+        "data-id": "6840",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-2",
+      "description": "Incident Exists on HWY-2 Both Directions Near HWY-27. Activities: Be prepared to stop, Reduce speed.Comments: Loose stones and broken pavement present on road. Please use caution while traveling in the area.",
+      "startTime": "5/8/26, 11:49 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-7113",
+          "rawHref": "/map#Incidents-7113",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-7113\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 113",
+        "data-id": "7113",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-2",
+      "description": "Under Construction on HWY-2 Both Directions from 1.1 Km North of Red Wing Rd to 0.8 Km South of White Star Rd. Speed Restriction: 60km/h Activities: Adjacent to road, One lane traffic, Reduced speed required, Sharp drop off pavement, Watch for equipment & persons working.Comments: Grading work, slow down and watch for equipment and persons working. No dimensional restrictions.",
+      "startTime": "6/1/26, 6:23 AM",
+      "anticipatedEndTime": "11/30/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-7599",
+          "rawHref": "/map#Construction-7599",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-7599\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 599",
+        "data-id": "7599",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-21",
+      "description": "Under Construction on HWY-21 Both Directions from 800 m North of HWY-55 to 1 Km North of HWY-55. Width Restriction: 4m Speed Restriction: 20km/h Activities: Be prepared to stop, Flag persons in attendance, One lane traffic, Reduced speed required, Restricted lane width, Watch for equipment & persons working.Comments: Road maintenance is taking place, use caution when travelling in the area",
+      "startTime": "11/17/26, 9:30 AM",
+      "anticipatedEndTime": "12/8/26, 5:00 PM",
+      "lastUpdated": "11/17/26, 9:35 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12184",
+          "rawHref": "/map#Construction-12184",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12184\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2184",
+        "data-id": "12184",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-23",
+      "description": "Incident Exists on HWY-23 Both Directions Near HWY-9.Comments: Rough road west of Highway 9, proceed with caution.",
+      "startTime": "4/20/24, 11:07 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-24",
+          "rawHref": "/map#Incidents-24",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-24\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\32 4",
+        "data-id": "24",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-3",
+      "description": "Incident Exists on HWY-3 Both Directions at 28 Km East of Hudson Bay. Activities: Reduce speed.Comments: Broken pavement, loose gravel, rough road. Please travel with caution",
+      "startTime": "5/5/24, 9:04 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-50",
+          "rawHref": "/map#Incidents-50",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-50\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\35 0",
+        "data-id": "50",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-3",
+      "description": "Incident Exists on HWY-3 Near North Saskatchewan River. Activities: Reduce speed.Comments: Section of guardrail missing. Please slow down and use extreme caution in the area.",
+      "startTime": "12/31/25, 8:52 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-5572",
+          "rawHref": "/map#Incidents-5572",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-5572\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\35 572",
+        "data-id": "5572",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-334",
+      "description": "Under Construction on HWY-334 Both Directions at 18.77 Km East of HWY-339. Width Restriction: 4.2m Speed Restriction: 30km/h Activities: Be prepared to stop, Bridge out, One lane traffic, Reduced speed required, Restricted lane width, Watch for equipment & persons working. Expect Delays: Under 20 minutesComments: Bridge replacement taking place. Detour bridge shall be controlled via traffic lights. Slow down and watch for equipment and persons working.",
+      "startTime": "11/2/26, 7:00 AM",
+      "anticipatedEndTime": "2/15/27, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-11310",
+          "rawHref": "/map#Construction-11310",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-11310\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1310",
+        "data-id": "11310",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-35",
+      "description": "Incident Exists on HWY-35 Both Directions Near Old HWY-35. Activities: Reduce speed.Comments: Surface breaks and potholes. Please slow down.",
+      "startTime": "4/2/24, 10:20 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-41",
+          "rawHref": "/map#Incidents-41",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-41\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\34 1",
+        "data-id": "41",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-364",
+      "description": "Incident Exists on HWY-364 Both Directions from 6.5 Km North of highway 734 to Highway 734. Speed Restriction: 60km/h Activities: Reduce speed.Comments: Loose stones and gravel surfaces in various locations. Please slow down and use caution when traveling in the area.",
+      "startTime": "8/6/26, 8:17 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-9699",
+          "rawHref": "/map#Incidents-9699",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-9699\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\39 699",
+        "data-id": "9699",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-37",
+      "description": "Incident Exists on HWY-37 Both Directions from 5.5 Km North of HWY-332 to 7.5 Km North of HWY-332.Comments: Broken pavement and loose stones. Please use caution in the area.",
+      "startTime": "6/4/26, 9:16 AM",
+      "anticipatedEndTime": "6/30/27, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-7716",
+          "rawHref": "/map#Incidents-7716",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-7716\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 716",
+        "data-id": "7716",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-39",
+      "description": "Incident Exists on HWY-39 Both Directions Near Bienfait Mine Rd. Activities: Reduce speed.Comments: Slow down and use caution. Rough railroad",
+      "startTime": "10/29/26, 11:48 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-11706",
+          "rawHref": "/map#Incidents-11706",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-11706\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1706",
+        "data-id": "11706",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-4",
+      "description": "Under Construction on HWY-4 Both Directions from 5.5 Km North of Saskatchewan Landing Provincial Park Access Road to 11 Km North of Saskatchewan Landing Provincial Park Access Road. Speed Restriction: 60km/h Activities: Adjacent to road, Be prepared to stop, Flag persons in attendance, Reduced speed required, Watch for equipment & persons working. Visibility: Dust.Comments: Culvert installation in progress. Please use caution while travelling in the area.",
+      "startTime": "11/16/26, 7:00 AM",
+      "anticipatedEndTime": "11/30/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12108",
+          "rawHref": "/map#Construction-12108",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12108\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2108",
+        "data-id": "12108",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-47",
+      "description": "Under Construction on HWY-47 Northbound from 1.57 Km North of 4th Street to 26.72 Km North of 4th Street. Width Restriction: 3.7m Activities: Adjacent to road, Reduced speed required, Restricted lane width, Sharp drop off pavement, Watch for equipment & persons working.Comments: Construction is taking place, Slow down and use caution as you pass.",
+      "startTime": "10/20/26, 2:33 PM",
+      "anticipatedEndTime": "11/20/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-11460",
+          "rawHref": "/map#Construction-11460",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-11460\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1460",
+        "data-id": "11460",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-47",
+      "description": "Under Construction on HWY-47 Both Directions Near HWY-755. Width Restriction: 3.7m Activities: Adjacent to road, Be prepared to stop, Loose stones, One lane traffic, Reduced speed required, Restricted lane width, Rough, Sharp drop off pavement, Surface breaks, Watch for equipment & persons working.Comments: Culvert installation taking place in the area. Reduce speed and proceed with caution.",
+      "startTime": "11/16/26, 5:00 AM",
+      "anticipatedEndTime": "11/28/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12107",
+          "rawHref": "/map#Construction-12107",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12107\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2107",
+        "data-id": "12107",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-5",
+      "description": "Under Construction on HWY-5 Both Directions from 0.8 Km East of HWY-41 to 12 Km East of HWY-41. Width Restriction: 4m Speed Restriction: 60km/h Activities: Adjacent to road, Be prepared to stop, Flag persons in attendance, One lane traffic, Reduced speed required, Restricted lane width, Rough, Watch for equipment & persons working. Visibility: Dust.Comments: Road work in the area. Slow down and proceed with caution.",
+      "startTime": "5/19/26, 7:00 AM",
+      "anticipatedEndTime": "11/30/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-7263",
+          "rawHref": "/map#Construction-7263",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-7263\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 263",
+        "data-id": "7263",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-55",
+      "description": "Incident Exists on HWY-55 Near Central Ave. Speed Restriction: 60km/h Activities: Reduce speed.Comments: Kelsey Creek bridge, the transition at the bridge may be rough to specific vehicles, proceed with caution. Slow to 60km/h.",
+      "startTime": "4/17/26, 2:33 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-6690",
+          "rawHref": "/map#Incidents-6690",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-6690\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\36 690",
+        "data-id": "6690",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-55",
+      "description": "Incident Exists on HWY-55 Both Directions from HWY-9 to Shoal Lake Access. Speed Restriction: 60km/h Activities: Be prepared to stop, Reduce speed.Comments: Rough/soft road due to flood damage. Slow down and use caution in the area.",
+      "startTime": "7/1/26, 8:32 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-8631",
+          "rawHref": "/map#Incidents-8631",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-8631\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\38 631",
+        "data-id": "8631",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-7",
+      "description": "Under Construction on HWY-7 Eastbound at 3.28 Km West of Saskatoon. Width Restriction: 3.5m Speed Restriction: 60km/h Activities: Be prepared to stop, Bridge under repair, One lane traffic, Reduced speed required, Restricted lane width, Watch for equipment & persons working.Comments: Construction in progress, two-way traffic on westbound lanes. Please slow down and use extreme caution in the area.",
+      "startTime": "4/1/26, 7:00 AM",
+      "anticipatedEndTime": "12/15/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-7137",
+          "rawHref": "/map#Construction-7137",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-7137\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\37 137",
+        "data-id": "7137",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-9",
+      "description": "Incident Exists on HWY-9 Both Directions Near HWY-983. Activities: Reduce speed.Comments: Broken pavement and rough road with loose stones. Please travel with caution",
+      "startTime": "5/5/24, 9:07 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-17",
+          "rawHref": "/map#Incidents-17",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-17\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 7",
+        "data-id": "17",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-9",
+      "description": "Incident Exists on HWY-9 Both Directions Near HWY-983. Activities: Reduce speed.Comments: Broken pavement and rough road. Please travel with caution",
+      "startTime": "4/2/24, 10:06 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-61",
+          "rawHref": "/map#Incidents-61",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-61\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\36 1",
+        "data-id": "61",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-9",
+      "description": "Incident Exists on HWY-9 Both Directions Near HWY-23. Activities: Reduce speed.Comments: Broken pavement and rough road. Please travel with caution",
+      "startTime": "4/2/24, 10:09 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-10968",
+          "rawHref": "/map#Incidents-10968",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-10968\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 0968",
+        "data-id": "10968",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-905",
+      "description": "Incident Exists on HWY-905 Near Black Lake.Comments: Stony Rapids to Shasko Bay Overland Winter Road Status: Closed",
+      "startTime": "4/5/23, 12:04 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-31",
+          "rawHref": "/map#Incidents-31",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-31\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\33 1",
+        "data-id": "31",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-905",
+      "description": "Incident Exists on HWY-905 Both Directions Near Murphy Lake. Activities: Be prepared to stop, No passing.Comments: Road is narrow due to snow build-up. Please use caution when driving in the area.",
+      "startTime": "10/26/26, 2:56 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-11594",
+          "rawHref": "/map#Incidents-11594",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-11594\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1594",
+        "data-id": "11594",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-937",
+      "description": "Under Construction on HWY-937 Both Directions at 6 Km North of HWY-929. Speed Restriction: 60km/h Activities: Adjacent to road, Be prepared to stop, One lane traffic, Reduced speed required, Watch for equipment & persons working.Comments: Culvert replacement. Please use caution when driving in the area. Alternating one way traffic with temporary signals.",
+      "startTime": "11/16/26, 2:54 PM",
+      "anticipatedEndTime": "12/10/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 3:03 PM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12169",
+          "rawHref": "/map#Construction-12169",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12169\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2169",
+        "data-id": "12169",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "HWY-980",
+      "description": "Under Construction on HWY-980 Both Directions at 43.6 Km South of Armit. Width Restriction: 4.2m Speed Restriction: 60km/h Activities: Be prepared to stop, Bridge under repair, One lane traffic, Reduced speed required, Restricted lane width, Rough, Watch for equipment & persons working.Comments: Bridge repair taking place in the area. Reduce speed and proceed with caution.",
+      "startTime": "10/31/26, 5:00 AM",
+      "anticipatedEndTime": "12/16/26, 5:00 PM",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-11718",
+          "rawHref": "/map#Construction-11718",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-11718\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1718",
+        "data-id": "11718",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "HWY-982",
+      "description": "Incident Exists on HWY-982 Both Directions Near HWY-983. Activities: Be prepared to stop, Reduce speed.Comments: Culvert replacement. Temporary bridge in place, expect delays.",
+      "startTime": "10/28/26, 6:27 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:32 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-11688",
+          "rawHref": "/map#Incidents-11688",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-11688\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 1688",
+        "data-id": "11688",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Construction",
+      "roadway": "Regina Bypass Southbound off ramp",
+      "description": "Under Construction on ramp from Regina Bypass Southbound off ramp to Highway 1 Eastbound. Width Restriction: 3.5m Speed Restriction: 60km/h Activities: One lane traffic, Reduced speed required, Restricted lane width, Watch for equipment & persons working.Comments: Road maintenance taking place under Regina Bypass bridge. Please use caution when traveling through. Traffic control will be in place 24 hours a day. Restriction also applies for the off ramp onto Highway 1 eastbound.",
+      "startTime": "11/19/26, 8:00 AM",
+      "anticipatedEndTime": "12/3/26, 5:00 PM",
+      "lastUpdated": "11/18/26, 2:00 PM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Construction-12265",
+          "rawHref": "/map#Construction-12265",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Construction-12265\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 2265",
+        "data-id": "12265",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "Stony Rapids Winter Rd",
+      "description": "Incident Exists on Stony Rapids Winter Rd Both Directions Near Lake Athabasca.Comments: Shasko Bay to Fond Du Lac Winter Road Status: Closed",
+      "startTime": "2/1/23, 8:00 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-2",
+          "rawHref": "/map#Incidents-2",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-2\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\32 ",
+        "data-id": "2",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "Stony Rapids Winter Rd",
+      "description": "Incident Exists on Stony Rapids Winter Rd Both Directions Near Fond du Lac.Comments: Fond du Lac to Uranium City Winter Road Status: Closed",
+      "startTime": "2/15/23, 3:31 PM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:30 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-10",
+          "rawHref": "/map#Incidents-10",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-10\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\31 0",
+        "data-id": "10",
+        "role": "row",
+        "class": "odd"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "Wollaston Ice Road",
+      "description": "Incident Exists on Wollaston Ice Road Both Directions Near Wollaston Lake.Comments: There will not be an ice road to Wollaston Lake. A temporary private road is available to access the community.",
+      "startTime": "2/5/26, 11:29 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-5989",
+          "rawHref": "/map#Incidents-5989",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-5989\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\35 989",
+        "data-id": "5989",
+        "role": "row",
+        "class": "even"
+      }
+    },
+    {
+      "type": "Incidents",
+      "roadway": "Wollaston Ice Road",
+      "description": "Incident Exists on Wollaston Ice Road Both Directions Near Wollaston Lake.Comments: There will not be an ice road to Wollaston Lake. A temporary private road is available to access the community.",
+      "startTime": "2/5/26, 11:34 AM",
+      "anticipatedEndTime": "",
+      "lastUpdated": "11/16/26, 8:31 AM",
+      "mapText": "View on map",
+      "mapLinks": [
+        {
+          "href": "https://hotline.gov.sk.ca/map#Incidents-5990",
+          "rawHref": "/map#Incidents-5990",
+          "text": "View on map",
+          "title": null,
+          "ariaLabel": null,
+          "onclick": null
+        }
+      ],
+      "mapDataAttrs": [],
+      "mapHtml": "<span class=\"colHeader\">Map</span><a href=\"/map#Incidents-5990\">View on map</a>",
+      "rowAttrs": {
+        "id": "\\35 990",
+        "data-id": "5990",
+        "role": "row",
+        "class": "odd"
+      }
+    }
+  ]
+}
