@@ -1,0 +1,1182 @@
+{
+  "source": "https://hotline.gov.sk.ca/list/cameras",
+  "fetchedAt": "2026-11-19T18:26:10.317Z",
+  "status": 200,
+  "page": {
+    "title": "Saskatchewan Cameras | View Live Saskatchewan Cameras | Highway Hotline",
+    "info": "Showing 1 to 10 of 56 entries",
+    "rows": [
+      {
+        "attrs": {
+          "id": "\\31 ",
+          "data-id": "1",
+          "role": "row",
+          "class": "odd"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ WapellaWapella"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-1",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/1?t=1795112770",
+            "alt": "Hwy 1 @ Wapella N/A Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "1"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Wapella",
+            "data-fs-desc": "Wapella",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\33 ",
+          "data-id": "3",
+          "role": "row",
+          "class": "even"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ WolseleyWolseley"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-3",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/3?t=1795112770",
+            "alt": "Hwy 1 @ Wolseley N/A Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "3"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Wolseley",
+            "data-fs-desc": "Wolseley",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\38 ",
+          "data-id": "8",
+          "role": "row",
+          "class": "odd"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ BalgonieBalgonie"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-8",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/8?t=1795112770",
+            "alt": "Hwy 1 @ Balgonie Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "8"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Balgonie",
+            "data-fs-desc": "Balgonie",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\32 1",
+          "data-id": "21",
+          "role": "row",
+          "class": "even"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ Gull LakeGull Lake"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-21",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/23?t=1795112770",
+            "alt": "Hwy 1 @ Gull Lake Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "21"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Gull Lake",
+            "data-fs-desc": "Gull Lake",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\33 1",
+          "data-id": "31",
+          "role": "row",
+          "class": "odd"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ Moose JawMoose Jaw"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-31",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/35?t=1795112770",
+            "alt": "Hwy 1 @ Moose Jaw Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "31"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Moose Jaw",
+            "data-fs-desc": "Moose Jaw",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\34 2",
+          "data-id": "42",
+          "role": "row",
+          "class": "even"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ SecretanSecretan"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-42",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/48?t=1795112770",
+            "alt": "Hwy 1 @ Secretan Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "42"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Secretan",
+            "data-fs-desc": "Secretan",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\35 6",
+          "data-id": "56",
+          "role": "row",
+          "class": "odd"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 1 @ Rush LakeRush Lake"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-56",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/64?t=1795112771",
+            "alt": "Hwy 1 @ Rush Lake N/A Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "56"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 1 @ Rush Lake",
+            "data-fs-desc": "Rush Lake",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\36 ",
+          "data-id": "6",
+          "role": "row",
+          "class": "even"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 10 @ AvonhurstAvonhurst"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-6",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/6?t=1795112771",
+            "alt": "Hwy 10 @ Avonhurst Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "6"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 10 @ Avonhurst",
+            "data-fs-desc": "Avonhurst",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\33 3",
+          "data-id": "33",
+          "role": "row",
+          "class": "odd"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 10 @ MelvilleMelville"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-33",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/37?t=1795112771",
+            "alt": "Hwy 10 @ Melville Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "33"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 10 @ Melville",
+            "data-fs-desc": "Melville",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      },
+      {
+        "attrs": {
+          "id": "\\31 2",
+          "data-id": "12",
+          "role": "row",
+          "class": "even"
+        },
+        "cells": [
+          "ImageView on map Login to accessMy CamerasHwy 11 @ BlackstrapBlackstrap"
+        ],
+        "links": [
+          {
+            "href": "https://hotline.gov.sk.ca/map#camera-12",
+            "text": "View on map",
+            "onclick": null
+          },
+          {
+            "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+            "text": "Login to accessMy Cameras",
+            "onclick": null
+          }
+        ],
+        "images": [
+          {
+            "src": "https://hotline.gov.sk.ca/map/Cctv/13?t=1795112771",
+            "alt": "Hwy 11 @ Blackstrap Camera Image"
+          }
+        ],
+        "dataAttrs": [
+          {
+            "data-id": "12"
+          },
+          {
+            "data-toggle": "dropdown"
+          },
+          {
+            "data-toggle": "modal",
+            "data-target": "#loginModalDialog"
+          },
+          {
+            "data-slick-index": "0"
+          },
+          {
+            "data-fs-title": "Hwy 11 @ Blackstrap",
+            "data-fs-desc": "Blackstrap",
+            "data-refresh-rate": "60000",
+            "data-disabled": "false",
+            "data-srcloaded": "true"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#content",
+        "text": "Skip to main content"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#menu",
+        "text": "Toggle navigation"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/",
+        "text": ""
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map",
+        "text": ""
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/511report",
+        "text": "Report An Emergency"
+      },
+      {
+        "href": "https://www.facebook.com/SaskatchewanHighwayHotline",
+        "text": "FacebookLink to Facebook in new window."
+      },
+      {
+        "href": "https://twitter.com/skgovhwyhotline",
+        "text": "Link to X in new window.."
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/mobileapp",
+        "text": "Free AppsLink to Flickr in new window"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/511report",
+        "text": "Report An Emergency"
+      },
+      {
+        "href": "https://www.facebook.com/SaskatchewanHighwayHotline",
+        "text": "FacebookLink to Facebook in new window."
+      },
+      {
+        "href": "https://twitter.com/skgovhwyhotline",
+        "text": "Link to X in new window.."
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/mobileapp",
+        "text": "Free AppsLink to Flickr in new window"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "All Districts"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/All%20Districts",
+        "text": "All Districts"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/La%20Ronge",
+        "text": "La Ronge"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Moose%20Jaw",
+        "text": "Moose Jaw"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Meadow%20Lake",
+        "text": "Meadow Lake"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/North%20Battleford",
+        "text": "North Battleford"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Prince%20Albert%20East",
+        "text": "Prince Albert East"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Prince%20Albert%20West",
+        "text": "Prince Albert West"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Regina%20Bypass",
+        "text": "Regina Bypass"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Swift%20Current",
+        "text": "Swift Current"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Saskatoon",
+        "text": "Saskatoon"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Yorkton",
+        "text": "Yorkton"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Weyburn",
+        "text": "Weyburn"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map",
+        "text": "511 Map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/",
+        "text": "Text Report"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/events/traffic",
+        "text": "Traffic Events"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/cctv",
+        "text": "Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/roadconditions",
+        "text": "Road Conditions"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/pois/iceroads",
+        "text": "Ice Roads"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/majorcrossings",
+        "text": "Border Crossings"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/pois/ferryterminals",
+        "text": "Ferry Crossings"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/parks",
+        "text": "Parks"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/",
+        "text": "About"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/about",
+        "text": "About Highway Hotline"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/terminology",
+        "text": "Winter Road Terminology"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/mobileapp",
+        "text": "Mobile Apps"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/contact",
+        "text": "Contact Us"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map",
+        "text": "511 Map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/events/traffic",
+        "text": "Traffic Events"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/cctv",
+        "text": "Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/roadconditions",
+        "text": "Road Conditions"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/pois/iceroads",
+        "text": "Ice Roads"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/majorcrossings",
+        "text": "Border Crossings"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/pois/ferryterminals",
+        "text": "Ferry Crossings"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/parks",
+        "text": "Parks"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/about",
+        "text": "About Highway Hotline"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/terminology",
+        "text": "Winter Road Terminology"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/about/mobileapp",
+        "text": "Mobile Apps"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/contact",
+        "text": "Contact Us"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/All%20Districts",
+        "text": "All Districts"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/La%20Ronge",
+        "text": "La Ronge"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Moose%20Jaw",
+        "text": "Moose Jaw"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Meadow%20Lake",
+        "text": "Meadow Lake"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/North%20Battleford",
+        "text": "North Battleford"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Prince%20Albert%20East",
+        "text": "Prince Albert East"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Prince%20Albert%20West",
+        "text": "Prince Albert West"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Regina%20Bypass",
+        "text": "Regina Bypass"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Swift%20Current",
+        "text": "Swift Current"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Saskatoon",
+        "text": "Saskatoon"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Yorkton",
+        "text": "Yorkton"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/region/Weyburn",
+        "text": "Weyburn"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/511report",
+        "text": "Report An Emergency"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/List/Alerts",
+        "text": "ADVISORIES"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-1",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-3",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-8",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-21",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-31",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-42",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-56",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-6",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-33",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/map#camera-12",
+        "text": "View on map"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+        "text": "Login to accessMy Cameras"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "Previous"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "1"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "2"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "3"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "4"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "5"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "6"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "text": "Next"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/accessibility",
+        "text": "Accessibility"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/copyright",
+        "text": "Copyright"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/site-map",
+        "text": "Site Map"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/social-media",
+        "text": "Social Media"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/terms-of-use",
+        "text": "Terms of Use"
+      },
+      {
+        "href": "https://www.saskatchewan.ca/",
+        "text": ""
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/my511/forgotpassword",
+        "text": "Forgot password?"
+      },
+      {
+        "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#top",
+        "text": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+        "alt": ""
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/1?t=1795112770",
+        "alt": "Hwy 1 @ Wapella N/A Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/3?t=1795112770",
+        "alt": "Hwy 1 @ Wolseley N/A Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/8?t=1795112770",
+        "alt": "Hwy 1 @ Balgonie Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/23?t=1795112770",
+        "alt": "Hwy 1 @ Gull Lake Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/35?t=1795112770",
+        "alt": "Hwy 1 @ Moose Jaw Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/48?t=1795112770",
+        "alt": "Hwy 1 @ Secretan Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/64?t=1795112771",
+        "alt": "Hwy 1 @ Rush Lake N/A Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/6?t=1795112771",
+        "alt": "Hwy 10 @ Avonhurst Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/37?t=1795112771",
+        "alt": "Hwy 10 @ Melville Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/map/Cctv/13?t=1795112771",
+        "alt": "Hwy 11 @ Blackstrap Camera Image"
+      },
+      {
+        "src": "https://hotline.gov.sk.ca/Content/SK/Images/footer-logo.png",
+        "alt": "Government of Saskatchewan logo"
+      }
+    ],
+    "bodyText": "Skip to main content REPORT AN EMERGENCY Facebook Link to Facebook in new window. Free Apps Link to Flickr in new window All Districts Text Report About Contact Us ADVISORIES CAMERAS Filter Area Area, None selected None selected None selected Alsask Avonhurst Bainbridge Hill Balgonie Blackstrap Blaine Lake Borden Buffalo Narrows Airport Clavet Colonsay Cumberland House Airport Dafoe Dalmeny Davidson Estevan Fond Du Lac Airport Glaslyn Good Spirit Gull Lake Hudson Bay Airport Ile A La Crosse Airport La Loche Airport MacDowall Macklin Maidstone Martensville Meadow Lake Airport Melville Moose Jaw Moose Mountain Naicam Paradise Hill Patuanak Airport Pelican Narrows Airport Pinehouse Lake Airport Reserve Roche Percee Round Lake Rush Lake Sandy Bay Airport Sask Landing Secretan Sheho Smeaton St. Louis Stony Rapids Airport Stoughton Toby Nollet Bridge Uranium City Vanscoy Wapella Warman Weyakwin Wollaston Lake Airport Wolseley Roadway Roadway, None selected None selected None selected Buffalo Narrows Airport Access Road Hwy 1 Hwy 10 Hwy 11 Hwy 12 Hwy 123 Hwy 13 Hwy 135 Hwy 14 Hwy 1503 Hwy 155 Hwy 16 Hwy 2 Hwy 21 Hwy 3 Hwy 39 Hwy 4 Hwy 40 Hwy 46 Hwy 55 Hwy 6 Hwy 7 Hwy 9 Hwy 905 Hwy 908 Hwy 914 Hwy 918 Ice Road Uranium City Airport Rd Wollaston Lake Airport Access Road Clear Filters Sort Search: Hwy 1 @ Wapella Wapella Hwy 1 @ Wolseley Wolseley Hwy 1 @ Balgonie Balgonie Hwy 1 @ Gull Lake Gull Lake Hwy 1 @ Moose Jaw Moose Jaw Hwy 1 @ Secretan Secretan Hwy 1 @ Rush Lake Rush Lake Hwy 10"
+  },
+  "summary": {
+    "rows": 10,
+    "withLink": 10,
+    "withImage": 10,
+    "withCoords": 0,
+    "cameraLinks": 34,
+    "images": 11
+  },
+  "cameraLinks": [
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#content",
+      "text": "Skip to main content"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#menu",
+      "text": "Toggle navigation"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "All Districts"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/cctv",
+      "text": "Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/cctv",
+      "text": "Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-1",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-3",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-8",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-21",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-31",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-42",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-56",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-6",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-33",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/map#camera-12",
+      "text": "View on map"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#",
+      "text": "Login to accessMy Cameras"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "Previous"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "1"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "2"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "3"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "4"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "5"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "6"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "text": "Next"
+    },
+    {
+      "href": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc#top",
+      "text": ""
+    }
+  ],
+  "cameraImages": [
+    {
+      "src": "https://hotline.gov.sk.ca/list/cameras?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "alt": ""
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/1?t=1795112770",
+      "alt": "Hwy 1 @ Wapella N/A Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/3?t=1795112770",
+      "alt": "Hwy 1 @ Wolseley N/A Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/8?t=1795112770",
+      "alt": "Hwy 1 @ Balgonie Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/23?t=1795112770",
+      "alt": "Hwy 1 @ Gull Lake Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/35?t=1795112770",
+      "alt": "Hwy 1 @ Moose Jaw Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/48?t=1795112770",
+      "alt": "Hwy 1 @ Secretan Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/64?t=1795112771",
+      "alt": "Hwy 1 @ Rush Lake N/A Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/6?t=1795112771",
+      "alt": "Hwy 10 @ Avonhurst Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/37?t=1795112771",
+      "alt": "Hwy 10 @ Melville Camera Image"
+    },
+    {
+      "src": "https://hotline.gov.sk.ca/map/Cctv/13?t=1795112771",
+      "alt": "Hwy 11 @ Blackstrap Camera Image"
+    }
+  ]
+}
