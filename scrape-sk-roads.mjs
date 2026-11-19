@@ -15,7 +15,7 @@ const PAGE_URL = 'https://hotline.gov.sk.ca/roadconditions';
 const OUT_FILE = 'docs/sk-roads.json';
 const SEGMENTS_FILE = 'docs/segments.json'; // built by build-segments.mjs
 const USER_AGENT =
-  'GingrichDieselMap-RoadConditions/1.0 (personal project; one fetch every 30 minutes)';
+  'RoadConditions/1.0 (personal project; manual)';
 
 // The page puts each column's name at the start of every cell (it is hidden on screen),
 // so those labels are stripped from the values. Same order as FIELDS below.
