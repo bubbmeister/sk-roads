@@ -28,9 +28,6 @@ jobs:
 
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
-
-      - name: Random delay
-        run: sleep $((RANDOM % 1200))
         
       - name: Scrape road conditions
         run: node scrape-sk-roads.mjs
