@@ -167,6 +167,8 @@ function attachPolylines(items) {
       ...item,
       encodedPolyline: seg?.encodedPolyline ?? null,
       polylineStatus: seg?.status ?? 'missing',
+      // Only present when a row has separate pieces of road that don't join up.
+      ...(seg?.extraPolylines ? { extraPolylines: seg.extraPolylines } : {}),
     };
   });
 }
