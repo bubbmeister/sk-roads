@@ -1,5 +1,7 @@
 // Fetches Saskatchewan road conditions from the public Highway Hotline text report
-// and writes docs/sk-roads.json. Designed to run from GitHub Actions every ~30 min.
+// and writes docs/sk-roads.json in the format the Diesel Map app loads for Saskatchewan
+// (a "conditions" list, each with its road lines). Designed to run from GitHub Actions
+// every ~30 min.
 //
 // Behaviour notes:
 // - One page load per run, with an honest user agent. No retries, no evasion.
@@ -13,9 +15,9 @@ import { dirname } from 'node:path';
 
 const PAGE_URL = 'https://hotline.gov.sk.ca/roadconditions';
 const OUT_FILE = 'docs/sk-roads.json';
-const SEGMENTS_FILE = 'docs/segments.json'; // built by build-segments.mjs
+const SEGMENTS_FILE = 'docs/segments.json'; // road geometry
 const USER_AGENT =
-  'RoadConditions/1.0 (personal project; manual)';
+  'GingrichDieselMap-RoadConditions/1.0 (personal project; one fetch every 30 minutes)';
 
 // The page puts each column's name at the start of every cell (it is hidden on screen),
 // so those labels are stripped from the values. Same order as FIELDS below.
@@ -169,35 +171,68 @@ function attachPolylines(items) {
       polylineStatus: seg?.status ?? 'missing',
       // Only present when a row has separate pieces of road that don't join up.
       ...(seg?.extraPolylines ? { extraPolylines: seg.extraPolylines } : {}),
+      ...(seg?.wtaId ? { wtaId: seg.wtaId } : {}),
     };
   });
 }
 
-function readPreviousItems() {
+function readPreviousPayload() {
   if (!existsSync(OUT_FILE)) return null;
   try {
-    return JSON.parse(readFileSync(OUT_FILE, 'utf8')).items ?? null;
+    return JSON.parse(readFileSync(OUT_FILE, 'utf8'));
   } catch {
     return null;
   }
 }
 
+// The same data in the format the Diesel Map app loads for Saskatchewan (see rdFetchOne in the
+// app): a "conditions" list with an array of encoded polylines per row. Rows without a road
+// line are left out, because the app can only draw rows that have one.
+function buildAppPayload(items, generated) {
+  const conditions = [];
+  for (const item of items) {
+    if (!item.encodedPolyline) continue;
+    const entry = {
+      source: 'sk',
+      id: String(item.wtaId ?? ''),
+      roadway: item.roadway,
+      location: item.location,
+      condition: item.primaryCondition,
+      polyline: [item.encodedPolyline, ...(item.extraPolylines ?? [])],
+    };
+    if (item.secondaryConditions) entry.secondary = item.secondaryConditions;
+    if (item.visibility) entry.visibility = item.visibility;
+    if (item.lastUpdated) entry.updatedText = item.lastUpdated;
+    conditions.push(entry);
+  }
+  return {
+    ok: true,
+    source: 'sk',
+    credit: 'Saskatchewan Highway Hotline',
+    sourceUrl: PAGE_URL,
+    generated,
+    counts: { conditions: conditions.length, events: 0, amber: 0, red: 0 },
+    conditions,
+    events: [],
+  };
+}
+
 try {
   const items = attachPolylines(await scrape());
-  const previous = readPreviousItems();
+  const payload = buildAppPayload(items, '');
+  const previous = readPreviousPayload();
 
-  if (previous && JSON.stringify(previous) === JSON.stringify(items)) {
-    console.log(`No change (${items.length} rows). File left as is.`);
+  if (previous && JSON.stringify(previous.conditions) === JSON.stringify(payload.conditions)) {
+    console.log(`No change (${payload.conditions.length} map rows). ${OUT_FILE} left as is.`);
   } else {
+    // "generated" is when the road conditions last CHANGED. The app shows it as
+    // "Saskatchewan updated". Runs with no change leave the file alone, so nothing is committed.
+    payload.generated = new Date().toISOString();
     mkdirSync(dirname(OUT_FILE), { recursive: true });
-    const payload = {
-      source: PAGE_URL,
-      fetchedAt: new Date().toISOString(),
-      count: items.length,
-      items,
-    };
-    writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2) + '\n');
-    console.log(`Wrote ${items.length} rows to ${OUT_FILE}.`);
+    writeFileSync(OUT_FILE, JSON.stringify(payload));
+    console.log(`Wrote ${payload.conditions.length} map rows to ${OUT_FILE}.`);
+    const undrawn = items.length - payload.conditions.length;
+    if (undrawn > 0) console.log(`Note: ${undrawn} rows have no road line and are not drawn.`);
   }
 } catch (err) {
   console.error(`Scrape failed: ${err.message}`);
