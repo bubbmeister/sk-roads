@@ -32,6 +32,11 @@ const USER_AGENT =
 const PAUSE_MS = 1200;
 const refresh = process.argv.includes('--refresh');
 
+// Stop gracefully after this many minutes so progress is saved and committed before
+// GitHub's 30-minute workflow limit. Just run the workflow again to continue.
+const MAX_MINUTES = 22;
+const startedAt = Date.now();
+
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function readJson(file, fallback) {
@@ -61,12 +66,21 @@ async function politeFetch(url) {
 
 // "Saskatoon to Prince Albert" -> ["Saskatoon", "Prince Albert"]
 function parseEnds(location) {
-  const text = location
-    .replace(/\([^)]*\)/g, ' ')
-    .replace(/^\s*(from|between)\s+/i, '')
-    .trim();
-  const match = text.match(/^(.+?)\s+(?:to|and|-|–|—)\s+(.+)$/i);
-  return match ? [match[1].trim(), match[2].trim()] : null;
+  // Drop a label before a colon, like "Highway 11: ..." or "Ice Road: ...".
+  const text = location.includes(':') ? location.slice(location.indexOf(':') + 1) : location;
+  // Try with bracketed text removed first, then with the brackets just stripped.
+  const candidates = [text.replace(/\([^)]*\)/g, ' '), text.replace(/[()]/g, ' ')];
+  for (const raw of candidates) {
+    const cleaned = raw
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/^(?:highway|hwy)\s*\d+[A-Za-z]?\s*[:,\-–]?\s*/i, '');
+    const match =
+      cleaned.match(/(?:from|between)\s+(.+?)\s+(?:to|and)\s+(.+)$/i) ??
+      cleaned.match(/^(.+?)\s+(?:to|and|-|–|—)\s+(.+)$/i);
+    if (match) return [match[1].trim(), match[2].trim()];
+  }
+  return null;
 }
 
 async function geocode(place, cache) {
@@ -187,13 +201,21 @@ function save() {
 }
 
 let stopped = false;
+let builtCount = 0;
 for (const [key, item] of unique) {
   const have = segments[key];
   if (have && have.status !== 'failed') continue;
 
+  if ((Date.now() - startedAt) / 60_000 > MAX_MINUTES) {
+    console.log(`Time limit of ${MAX_MINUTES} minutes reached. Run the workflow again to continue.`);
+    break;
+  }
+
   try {
     segments[key] = await buildSegment(item, geocache);
     console.log(`${segments[key].status.padEnd(8)} ${key}`);
+    builtCount += 1;
+    if (builtCount % 20 === 0) save();
   } catch (err) {
     if (err instanceof StopError) {
       console.error(err.message);
