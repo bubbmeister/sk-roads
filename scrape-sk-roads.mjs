@@ -16,6 +16,7 @@ import { dirname } from 'node:path';
 const PAGE_URL = 'https://hotline.gov.sk.ca/roadconditions';
 const OUT_FILE = 'docs/sk-roads.json';
 const SEGMENTS_FILE = 'docs/segments.json'; // road geometry
+const CAMERAS_FILE = 'docs/sk-cameras.json'; // built by build-cameras.mjs
 const USER_AGENT =
   'GingrichDieselMap-RoadConditions/1.0 (personal project; one fetch every 30 minutes)';
 
@@ -119,6 +120,22 @@ async function scrape() {
       } catch {
         break;
       }
+      // Wait until the table really shows the next page. A fixed short wait was not enough: if
+      // the page had not changed yet, the loop thought it was finished and stopped at 100 rows.
+      await page
+        .waitForFunction(
+          (prev) => {
+            const tr = document.querySelector('table tbody tr');
+            if (!tr) return false;
+            const cells = [...tr.querySelectorAll('td')].map((td) =>
+              td.textContent.trim().replace(/\s+/g, ' ')
+            );
+            return JSON.stringify(cells) !== prev;
+          },
+          fingerprint,
+          { timeout: 15_000 }
+        )
+        .catch(() => {});
       await page.waitForTimeout(300);
     }
 
@@ -127,6 +144,14 @@ async function scrape() {
       .catch(() => 'not found');
     console.log(`Table info: ${tableInfo}`);
     console.log(`Collected ${rawRows.length} raw table rows.`);
+    // The table says how many rows there are ("Showing 1 to 100 of 779 entries"). If we got
+    // fewer, paging stopped early: fail so the last good file is kept instead of a partial one.
+    const expected = Number((/of\s+([\d,]+)\s+entries/i.exec(tableInfo) ?? [])[1]?.replace(/,/g, ''));
+    if (expected && rawRows.length < expected) {
+      throw new Error(
+        `Only collected ${rawRows.length} of ${expected} rows. Paging stopped early. Keeping previous file.`
+      );
+    }
 
     const seen = new Set();
     const items = [];
@@ -176,6 +201,18 @@ function attachPolylines(items) {
   });
 }
 
+// Cameras for the app's "Nearest camera" popup section (same shape as the other provinces:
+// id, lat, lng, road, loc, v:[{u,d}]). Empty until build-cameras.mjs has been run.
+function readCameras() {
+  try {
+    return (JSON.parse(readFileSync(CAMERAS_FILE, 'utf8')).cameras ?? []).map(
+      ({ id, lat, lng, road, loc, v }) => ({ id, lat, lng, road, loc, v })
+    );
+  } catch {
+    return [];
+  }
+}
+
 function readPreviousPayload() {
   if (!existsSync(OUT_FILE)) return null;
   try {
@@ -214,6 +251,7 @@ function buildAppPayload(items, generated) {
     counts: { conditions: conditions.length, events: 0, amber: 0, red: 0 },
     conditions,
     events: [],
+    cameras: readCameras(),
   };
 }
 
@@ -222,7 +260,11 @@ try {
   const payload = buildAppPayload(items, '');
   const previous = readPreviousPayload();
 
-  if (previous && JSON.stringify(previous.conditions) === JSON.stringify(payload.conditions)) {
+  if (
+    previous &&
+    JSON.stringify(previous.conditions) === JSON.stringify(payload.conditions) &&
+    JSON.stringify(previous.cameras ?? []) === JSON.stringify(payload.cameras)
+  ) {
     console.log(`No change (${payload.conditions.length} map rows). ${OUT_FILE} left as is.`);
   } else {
     // "generated" is when the road conditions last CHANGED. The app shows it as
@@ -230,7 +272,7 @@ try {
     payload.generated = new Date().toISOString();
     mkdirSync(dirname(OUT_FILE), { recursive: true });
     writeFileSync(OUT_FILE, JSON.stringify(payload));
-    console.log(`Wrote ${payload.conditions.length} map rows to ${OUT_FILE}.`);
+    console.log(`Wrote ${payload.conditions.length} map rows and ${payload.cameras.length} cameras to ${OUT_FILE}.`);
     const undrawn = items.length - payload.conditions.length;
     if (undrawn > 0) console.log(`Note: ${undrawn} rows have no road line and are not drawn.`);
   }
